@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/app/style/home.css">
     <link rel="stylesheet" href="/nm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/nm/aos/dist/aos.css">
     <title>Document</title>
 </head>
 <body>
@@ -34,7 +35,7 @@
                     <h3>Education</h3>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6 school">
+                            <div class="col-md-6 school" data-aos="slide-right">
                                 <div class="outer-div center">
                                     <a href="https://generalassemb.ly/locations/san-francisco"></a>
                                     <img src="/app/img/ga.jpg" class="responsive inner-div" alt="General Assembly">
@@ -42,7 +43,7 @@
                                 <h5 class="school-title">General Assembly</h5>
                                 <h6>Web Development Immersive</h6>
                             </div>
-                            <div class="col-md-6 school">
+                            <div class="col-md-6 school" data-aos="slide-left">
                                 <div class="outer-div center">
                                     <a href="http://www.redlands.edu">
                                         <img src="/app/img/redlands.jpg" class="responsive inner-div" alt="Redlands">
@@ -72,7 +73,7 @@
         <div class="projects-container container-fluid">
             <div class="row text-center">
                 <div class="col-md-6 project text-center">
-                    <a href="https://react-burger-builder-a77c9.firebaseapp.com/" class="portfolio-box">
+                    <a href="https://react-burger-builder-a77c9.firebaseapp.com/" class="portfolio-box" data-aos="slide-right">
                         <img src="app/img/portfolio/burger2.jpg" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -88,7 +89,7 @@
                     <a class="code-link" href="https://github.com/hintonbradley/react-burger-builder">Code for Burger Builder</a>
                 </div>
                 <div class="col-md-6 project text-center">
-                    <a href="http://bradleydesign.s3-website.us-east-2.amazonaws.com/" class="portfolio-box">
+                    <a href="http://bradleydesign.s3-website.us-east-2.amazonaws.com/" class="portfolio-box" data-aos="slide-left">
                         <img src="app/img/portfolio/bradley2.jpg" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -106,7 +107,7 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-6 project text-center">
-                    <a href="http://afternoon-sierra-48284.herokuapp.com/" class="portfolio-box">
+                    <a href="http://afternoon-sierra-48284.herokuapp.com/" class="portfolio-box" data-aos="slide-right">
                         <img src="app/img/portfolio/indulge2.jpg" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -122,7 +123,7 @@
                     <a class="code-link" href="https://github.com/indulge-project5/indulge_app">Code for Indulge</a>
                 </div>
                 <div class="col-md-6 project text-center">
-                    <a href="https://epochbank.herokuapp.com/" class="portfolio-box">
+                    <a href="https://epochbank.herokuapp.com/" class="portfolio-box" data-aos="slide-left">
                         <img src="app/img/portfolio/epoch2.jpg" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -202,7 +203,7 @@
                 <div class="col-md-4 my-auto pub-work">
                     <div class="outer-div center">
                         <a href="https://www.sheetmusicplus.com/title/american-on-rye-hold-the-mayo-digital-sheet-music/19951599">
-                            <img src="/app/img/scoreImg.png" class="responsive inner-div" alt="Mosa">
+                            <img src="/app/img/scoreImg.png" class="responsive inner-div" alt="Music" data-aos="slide-right">
                         </a>
                     </div>
                 </div>
@@ -216,7 +217,7 @@
                 <div class="col-md-4 my-auto pub-work">
                     <div class="outer-div center">
                         <a href="https://www.youtube.com/watch?v=Hv6KmhBE5U0">
-                            <img src="/app/img/mosa.jpg" class="responsive inner-div" alt="Mosa">
+                            <img src="/app/img/mosa.jpg" class="responsive inner-div" alt="Mosa" data-aos="slide-left">
                         </a>
                     </div>
                 </div>
@@ -265,4 +266,6 @@
             </div>
         </div>
     </section>
+    <script src="/nm/aos/dist/aos.js"></script>
+    <script src="/app/js/home.js"></script>
 </body>
