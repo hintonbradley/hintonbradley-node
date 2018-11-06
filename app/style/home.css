@@ -57,7 +57,7 @@ button.btn-lg {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px 0px;
-    height: 100px;
+    height: 100%;
     overflow: hidden;
 
     /* 
@@ -73,7 +73,7 @@ button.btn-lg {
 
 .pimg1 {
     background-image: url('/app/img/image1.jpg');
-    min-height: 100px;
+    min-height: 100%;
 }
 
 .pimg2 {
