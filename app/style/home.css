@@ -54,7 +54,7 @@ button.btn-lg {
     position: relative;
     opacity: 0.9;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 20px 0px;
     height: 100%;
