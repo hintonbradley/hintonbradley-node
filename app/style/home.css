@@ -373,7 +373,7 @@ section {
 
 @media only screen and (max-width: 768px) {
     .pimg1, .pimg2, .pimg3, .pimg4 {
-         background-attachment: scroll;
+         /* background-attachment: scroll; */
     }
 
     .pimg2 {
