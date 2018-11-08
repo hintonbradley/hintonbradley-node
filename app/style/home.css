@@ -73,7 +73,6 @@ button.btn-lg {
 
 .pimg1 {
     background-image: url('/app/img/image1.jpg');
-    height: 50%;
     min-height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
