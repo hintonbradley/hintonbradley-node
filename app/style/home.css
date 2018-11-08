@@ -380,7 +380,7 @@ section {
 .pimg2 {
     height: 400px;
     max-height: 400px;
-    background-size: contain;
+    background-size: cover;
 }
 
 
