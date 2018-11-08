@@ -378,22 +378,9 @@ section {
     }
 
 .pimg2 {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px 0px;
     height: 400px;
-    overflow: hidden;
-
-    /* 
-    fixed = parallax
-    scroll = normal
-        */
-        background-attachment: fixed;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
+    max-height: 400px;
+    background-size: contain;
 }
 
 
