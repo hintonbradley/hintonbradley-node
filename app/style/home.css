@@ -78,11 +78,11 @@ button.btn-lg {
     background-size: cover;
 }
 
-.pimg2 {
+/* .pimg2 {
     background-image: url('/app/img/bridge2.jpg');
     min-height: 400px;
     background-position: 100% 100%;
-}
+} */
 
 .pimg3 {
     background-image: url('/app/img/vine3.jpg');
@@ -373,12 +373,12 @@ section {
 }
 
 @media only screen and (max-width: 768px) {
-    .pimg2, .pimg3, .pimg4 {
-         background-attachment: scroll;
+    .pimg2, .pimg3, .pimg4, .pimg5 {
+         /* background-attachment: scroll; */
          display: none;
     }
 
-    .pimg2 {
+    /* .pimg2 {
         background-image: url('/app/img/ggsmall.jpg');
         background-position: 75% 60%;
         display: none;
@@ -387,7 +387,7 @@ section {
     .pimg5 {
         background-position: 30% 100%;
         display: none;
-    }
+    } */
 
     .rec-container {
         display: inline-block;
