@@ -84,9 +84,6 @@ button.btn-lg {
     min-height: 400px;
     /* background-position: 50% 50%; */
     max-height: 400px;
-
-    background:url(http://www.pmob.co.uk/mobile/images/a1.jpg) no-repeat 50% 50%;
-    background-size:cover;
 }
 
 .pimg3 {
@@ -381,6 +378,11 @@ section {
     .pimg2, .pimg3, .pimg4, .pimg5 {
          background-attachment: scroll;
          background-color: orange;
+    }
+
+    .pimg2 {
+        background:url(http://www.pmob.co.uk/mobile/images/a1.jpg) no-repeat 50% 50%;
+        background-size:cover;
     }
 
     /* .pimg2 {
