@@ -318,6 +318,10 @@ section {
     margin: 1vw 0;
 }
 
+.pub-container {
+    margin: 3vw 0;
+}
+
 .pubs-container .title-music::before, .pubs-container .title-music::after {
     content: " \266B";
     margin-right: 5px;
@@ -429,6 +433,10 @@ section {
 
     .pub-music .pub-work {
         order: 2;
+    }
+
+    .pub-container {
+        margin: 10vh 0;
     }
 }
 
