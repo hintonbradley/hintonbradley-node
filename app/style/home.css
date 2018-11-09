@@ -400,14 +400,14 @@ section {
 }
 
 @media only screen and (max-width: 768px) {
-    .pimg2, .pimg3, .pimg4, .pimg5 {
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
          background-attachment: scroll;
          /* display: none; */
     }
 
     .pimg2 {
         background-image: url('/app/img/ggsmall.jpg');
-        background-position: 75% 60%;
+        background-position: 50% 60%;
         /* display: none; */
     }
 
