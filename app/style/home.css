@@ -402,18 +402,18 @@ section {
 @media only screen and (max-width: 768px) {
     .pimg2, .pimg3, .pimg4, .pimg5 {
          /* background-attachment: scroll; */
-         display: none;
+         /* display: none; */
     }
 
     .pimg2 {
         background-image: url('/app/img/ggsmall.jpg');
         background-position: 75% 60%;
-        display: none;
+        /* display: none; */
     }
 
     .pimg5 {
         background-position: 30% 100%;
-        display: none;
+        /* display: none; */
     }
 
     .rec-container {
