@@ -406,7 +406,7 @@ section {
 }
 
 @media only screen and (max-device-width: 667px) {
-    body {
+    .pimg2, .pimg3, .pimg4, .pimg5 {
         display: none;
     }
 }
