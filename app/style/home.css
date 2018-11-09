@@ -5,10 +5,15 @@ body, html {
     font-weight: 400;
     line-height: 1.8em;
     color: #666;
+    /* overflow-x: hidden; */
 }
 
 body a {
     color: #D45538;
+}
+
+.education .container .row, .projects .projects-container .row, .pub-container .publication {
+    overflow-x: hidden;
 }
 
 h1 {
