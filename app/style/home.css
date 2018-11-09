@@ -81,7 +81,7 @@ button.btn-lg {
 .pimg2 {
     background: url(http://placebear.com/1200/800) no-repeat center center fixed;
 	 background-size: cover;
-  height: 400px;
+  height: 100%;
   overflow: hidden;
 }
 
