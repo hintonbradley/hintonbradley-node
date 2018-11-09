@@ -77,6 +77,17 @@ button.btn-lg {
     height: 100%;
     /* min-height: 100%; */
     background-size: cover;
+
+    content:"";
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index:-1;
+    display:block;
+    background:url(http://www.pmob.co.uk/mobile/images/a1.jpg) no-repeat 50% 50%;
+    background-size:cover;
 }
 
 .pimg2 {
@@ -381,20 +392,6 @@ section {
     }
 
     .pimg2 {
-        /* background-image: url('/app/img/bridge2.jpg'); */
-        content:"";
-        position:fixed;
-        left:0;
-        top:0;
-        right:0;
-        bottom:0;
-        z-index:-1;
-        display:block;
-        background:url(http://www.pmob.co.uk/mobile/images/a1.jpg) no-repeat 50% 50%;
-        background-size:cover;
-    }
-
-    /* .pimg2 {
         background-image: url('/app/img/ggsmall.jpg');
         background-position: 75% 60%;
     }
@@ -416,5 +413,5 @@ section {
 
     .pub-music .pub-work {
         order: 2;
-    } */
+    }
 }
