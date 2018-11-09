@@ -404,3 +404,9 @@ section {
         order: 2;
     }
 }
+
+@media only screen and (max-device-width: 667px) {
+    body {
+        display: none;
+    }
+}
