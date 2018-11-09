@@ -81,11 +81,11 @@ button.btn-lg {
 .pimg2 {
    
     /* position:fixed; */
-    left:0;
+    /* left:0;
     top:0;
     right:0;
     bottom:0;
-    z-index:-1;
+    z-index:-1; */
     display:block;
     background:url(http://www.pmob.co.uk/mobile/images/a1.jpg) no-repeat 50% 50%;
     background-size:cover;
