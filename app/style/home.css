@@ -79,17 +79,23 @@ button.btn-lg {
 }
 
 .pimg2 {
-    background: url(http://placebear.com/1200/800) no-repeat center center fixed;
-	 background-size: cover;
-  height: 100%;
-  overflow: hidden;
+   
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index:-1;
+    display:block;
+    background:url(http://www.pmob.co.uk/mobile/images/a1.jpg) no-repeat 50% 50%;
+    background-size:cover;
 }
 
-/* .pimg2 {
+.pimg2 {
     background-image: url('/app/img/bridge2.jpg');
     min-height: 400px;
     background-position: 100% 100%;
-} */
+}
 
 .pimg3 {
     background-image: url('/app/img/vine3.jpg');
