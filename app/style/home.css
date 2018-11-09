@@ -80,10 +80,13 @@ button.btn-lg {
 }
 
 .pimg2 {
-    background-image: url('/app/img/bridge2.jpg');
+    /* background-image: url('/app/img/bridge2.jpg'); */
     min-height: 400px;
-    background-position: 100% 100%;
+    /* background-position: 50% 50%; */
     max-height: 400px;
+
+    background:url(http://www.pmob.co.uk/mobile/images/a1.jpg) no-repeat 50% 50%;
+    background-size:cover;
 }
 
 .pimg3 {
@@ -377,19 +380,16 @@ section {
 @media only screen and (max-width: 768px) {
     .pimg2, .pimg3, .pimg4, .pimg5 {
          background-attachment: scroll;
-         /* display: none; */
          background-color: orange;
     }
 
-    .pimg2 {
+    /* .pimg2 {
         background-image: url('/app/img/ggsmall.jpg');
         background-position: 75% 60%;
-        /* display: none; */
     }
 
     .pimg5 {
         background-position: 30% 100%;
-        /* display: none; */
     }
 
     .rec-container {
@@ -405,5 +405,5 @@ section {
 
     .pub-music .pub-work {
         order: 2;
-    }
+    } */
 }
