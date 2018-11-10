@@ -514,9 +514,13 @@ section {
         transform: translate(-50%, -50%);
     }
 
-    sm-proj-txt {
+    .indulge .centered, .epoch .centered {
+        top: 32%;
+    }
+
+    /* .sm-proj-txt {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-    }
+    } */
 }
