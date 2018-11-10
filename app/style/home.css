@@ -8,6 +8,14 @@ body, html {
     /* overflow-x: hidden; */
 }
 
+.container-proj {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 body a {
     color: #D45538;
 }
@@ -232,10 +240,6 @@ section {
 .projects .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     /* font-size: 18px; */
 }
-
-.projects .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
-}
 /* END PROJECTS */
 
 /* RECOMMENDATIONS */
@@ -382,12 +386,6 @@ section {
     }
     /* End Scale Img */
 
-    /* Button */
-    button.btn-lg:hover {
-        background-color: #E95D3E;
-    }
-    /* End Button */
-
     /* Education */
     .education .school:hover {
         color: #E95D3E;
@@ -395,6 +393,12 @@ section {
         cursor: pointer;
     }
     /* END EDUCATION */
+
+    /* Projects */
+    .projects .portfolio-box:hover .portfolio-box-caption {
+        opacity: 1;
+    }
+    /* End Projects */
 
     /* Recommendations */
     .rec-container:hover .rec-photo {
@@ -409,20 +413,26 @@ section {
 }
 
 @media only screen and (max-width: 768px) {
+    body a:focus, body a:hover {
+        color: #D45538;
+        text-decoration: none;
+    }
+    body .contact-btn a:focus, body .contact-btn a:hover { 
+        color: #fff;
+        text-decoration: none;
+    }
+
     .pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
          background-attachment: scroll;
-         /* display: none; */
     }
 
     .pimg2 {
         background-image: url('/app/img/ggsmall.jpg');
         background-position: 50% 60%;
-        /* display: none; */
     }
 
     .pimg5 {
         background-position: 30% 100%;
-        /* display: none; */
     }
 
     .rec-container {
@@ -443,10 +453,70 @@ section {
     .pub-container {
         margin: 10vh 0;
     }
-}
 
-/* @media only screen and (max-device-width: 667px) {
-    .pimg2, .pimg3, .pimg4, .pimg5 {
-        display: none;
+    .portfolio-box img {
+        opacity: .4;
     }
-} */
+
+    .sm-proj {
+        position: absolute;
+        background: yellow;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+
+    /* Container holding the image and the text */
+    .container-proj {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .container-proj .txt-overlay {
+        width: 85%;
+        font-weight: bold;
+        color: black;
+    }
+
+    /* Bottom left text */
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
+
+    /* Top left text */
+    .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+    }
+
+    /* Top right text */
+    .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+
+    /* Bottom right text */
+    .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+    }
+
+    /* Centered text */
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    sm-proj-txt {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
